@@ -43,3 +43,7 @@ Your website will be available at: `https://yourusername.github.io/html-website/
 ## License
 
 This project is open source and available for personal and commercial use.
+
+## Deployment Status
+
+Website deployed via GitHub Actions.
