@@ -1,6 +1,6 @@
-# HTML Website
+# Vinayaka Developers Website
 
-A simple HTML website ready for GitHub Pages deployment.
+Official website for Vinayaka Developers - a premier real estate development company specializing in building and selling premium apartments in Hyderabad with 10+ years of construction experience in Nalgonda.
 
 ## Features
 
@@ -8,6 +8,15 @@ A simple HTML website ready for GitHub Pages deployment.
 - Responsive CSS styling
 - Modern, clean design
 - GitHub Actions workflow for automatic deployment
+- Company information and contact details
+
+## About Vinayaka Developers
+
+Vinayaka Developers is a real estate development company that:
+- Builds and sells premium apartments
+- Operates in Hyderabad, Telangana
+- Has 10+ years of construction experience in Nalgonda
+- Focuses on quality construction and timely delivery
 
 ## Local Development
 
@@ -32,13 +41,14 @@ A simple HTML website ready for GitHub Pages deployment.
 4. Choose `main` branch and `/ (root)` folder
 5. Click Save
 
-Your website will be available at: `https://yourusername.github.io/html-website/`
+Your website will be available at: `https://ajayakula9.github.io/html-website-/`
 
 ## Customization
 
-- Edit `index.html` to change the content
+- Edit `index.html` to change the company content
 - Edit `styles.css` to modify the styling
-- Add new HTML files for additional pages
+- Add new HTML files for additional pages (Projects, Gallery, etc.)
+- Update contact information in the Contact section
 
 ## License
 
