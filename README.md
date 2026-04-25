@@ -47,3 +47,5 @@ This project is open source and available for personal and commercial use.
 ## Deployment Status
 
 Website deployed via GitHub Actions.
+
+Last updated: April 2026
