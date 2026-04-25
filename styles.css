@@ -33,6 +33,14 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.vinayaka-symbol {
+    width: 40px;
+    height: 40px;
 }
 
 nav ul {
@@ -60,12 +68,34 @@ main {
 
 /* Hero Section */
 .hero {
-    text-align: center;
     padding: 4rem 2rem;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border-radius: 10px;
     margin-bottom: 2rem;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    flex: 0 0 auto;
+}
+
+.vinayaka-idol {
+    width: 200px;
+    height: 200px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
 }
 
 .hero h1 {
@@ -149,11 +179,26 @@ footer {
         gap: 1rem;
     }
 
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
     .hero h1 {
         font-size: 2rem;
     }
 
     .hero p {
         font-size: 1rem;
+    }
+
+    .vinayaka-idol {
+        width: 150px;
+        height: 150px;
     }
 }
