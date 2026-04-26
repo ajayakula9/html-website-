@@ -38,9 +38,10 @@ nav {
     gap: 0.5rem;
 }
 
-.vinayaka-symbol {
-    width: 40px;
-    height: 40px;
+.logo-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
 nav ul {
