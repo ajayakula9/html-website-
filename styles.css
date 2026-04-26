@@ -83,7 +83,7 @@ main {
 
 /* Hero Section */
 .hero {
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
     background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 50%, #4a7c59 100%);
     color: white;
     border-radius: 10px;
@@ -118,8 +118,8 @@ main {
 }
 
 .vinayaka-idol {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .hero-text {
@@ -128,21 +128,21 @@ main {
 }
 
 .main-heading {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
 
 .subheading {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
     color: #FFE5B4;
 }
 
 .intro {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
 }
 
 .cta-button {
