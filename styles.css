@@ -108,23 +108,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.hero-image {
-    flex: 0 0 auto;
-}
-
-.vinayaka-idol {
-    width: 150px;
-    height: 150px;
-}
-
 .hero-text {
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .main-heading {
