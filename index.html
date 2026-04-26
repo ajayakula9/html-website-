@@ -26,12 +26,17 @@
 
     <main>
         <section id="home" class="hero">
+            <div class="hero-background">
+                <img src="hayath-nagar-building.jpg" alt="Project Building" class="hero-bg-image">
+                <img src="project-photo.jpg" alt="Project View" class="hero-bg-image">
+                <img src="project-details.jpg" alt="Project Details" class="hero-bg-image">
+            </div>
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="main-heading">Building Dreams with Quality, Trust & Innovation</h1>
                     <p class="subheading">Delivering premium residential and commercial spaces with modern infrastructure and customer-first approach.</p>
                     <p class="intro">With over 10+ years of experience, we are committed to building aspirations and delivering value through high-quality construction and thoughtfully planned developments. Our projects combine modern design, strategic locations, and long-term investment value to create spaces where people thrive.</p>
-                    <a href="#projects" class="cta-button">View Our Projects</a>
+                    <a href="#projects" class="cta-button" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'}); return false;">View Our Projects</a>
                 </div>
             </div>
         </section>
@@ -73,7 +78,7 @@
                     <p>Years of Experience</p>
                 </div>
                 <div class="stat-item">
-                    <h3>2+</h3>
+                    <h3>10+</h3>
                     <p>Completed Projects</p>
                 </div>
                 <div class="stat-item">
@@ -229,12 +234,18 @@
                 </div>
                 <div class="completed">
                     <h3>Completed Projects</h3>
-                    <ul>
-                        <li><a href="basavaiah-hayath-nagar.pdf" class="document-link" target="_blank" download>Basavaiah Hayath Nagar (PDF)</a></li>
-                        <li>Successfully delivered residential layouts</li>
-                        <li>Trusted by hundreds of happy customers</li>
-                        <li>Strong reputation for quality and delivery</li>
-                    </ul>
+                    <div class="completed-project-item">
+                        <img src="hayath-nagar-building.jpg" alt="Hayathnagar Project 1" class="completed-project-image">
+                        <div class="completed-project-info">
+                            <h4>Hayathnagar Project 1</h4>
+                            <p class="location">Hayath Nagar, Hyderabad</p>
+                            <div class="project-links">
+                                <a href="basavaiah-hayath-nagar.pdf" class="document-link" target="_blank" download>Project Details (PDF)</a>
+                                <a href="hayath-nagar-details.pdf" class="document-link" target="_blank" download>Additional Details (PDF)</a>
+                                <a href="hayath-nagar-parking.pdf" class="document-link" target="_blank" download>Parking Plan (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="projects-cta">
